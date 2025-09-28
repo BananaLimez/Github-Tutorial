@@ -48,6 +48,7 @@ Then go to GitHub → open a **Pull Request (PR)** → get review → merge into
 - Always make a **branch** for your task.  
 - Always **pull before starting work**.  
 - Use clear commit messages.  
+- Or just git push origin main :p
 
 ---
 
