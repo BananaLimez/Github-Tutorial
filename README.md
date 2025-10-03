@@ -43,12 +43,36 @@ Then go to GitHub → open a **Pull Request (PR)** → get review → merge into
 
 ---
 
+## 🔀 Merging Branches Locally (Example: `secondary` → `main`)
+
+If you worked on a branch called `secondary` and want to merge it into `main`:
+
+```bash
+git checkout main                # switch to main branch
+git pull origin main             # update main with remote
+git merge secondary              # merge your changes into main
+git push origin main             # push updated main to GitHub
+```
+
+⚠️ If there are conflicts:
+1. Git will show which files conflict.  
+2. Open them and fix the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`).  
+3. Then run:
+
+```bash
+git add .
+git commit
+git push origin main
+```
+
+---
+
 ## ✅ Rules
 - Never push directly to `main`.  
 - Always make a **branch** for your task.  
 - Always **pull before starting work**.  
 - Use clear commit messages.  
-- Or just git push origin main :p
+- Or just `git push origin main` :p  
 
 ---
 
