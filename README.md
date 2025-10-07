@@ -48,6 +48,7 @@ Then go to GitHub → open a **Pull Request (PR)** → get review → merge into
 If you worked on a branch called `secondary` and want to merge it into `main`:
 
 ```bash
+git branch                       # check current branch
 git checkout main                # switch to main branch
 git pull origin main             # update main with remote
 git merge secondary              # merge your changes into main
