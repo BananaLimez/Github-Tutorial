@@ -53,6 +53,7 @@ git checkout main                # switch to main branch
 git pull origin main             # update main with remote
 git merge secondary              # merge your changes into main
 git push origin main             # push updated main to GitHub
+git restore .                    # restore to previous commit incase you f* up code
 ```
 
 ⚠️ If there are conflicts:
