@@ -42,6 +42,10 @@ If the branch exists **only on GitHub** (remote):
 ```bash
 git fetch
 git checkout -b branch-name origin/branch-name
+
+example
+git checkout -b discovery+profile origin/discovery+profile
+
 ```
 or (newer syntax)
 ```bash
